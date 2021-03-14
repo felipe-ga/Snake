@@ -23,7 +23,12 @@ public class Menu extends JFrame {
 
         // creates image
         JLabel containerImageLabel = new JLabel();
-        containerImageLabel.setIcon(new ImageIcon("src/main/resources/images/snake.png"));
+        try{
+            containerImageLabel.setIcon(new ImageIcon(this.getClass().getClassLoader().getResource("images/snake.png")));
+        }catch(Exception e){
+            LOG.info(e.getMessage());
+        }
+
         containerImageLabel.setBorder(new EmptyBorder(20, 5, 5, 5));
         panelLeft.add(containerImageLabel);
 

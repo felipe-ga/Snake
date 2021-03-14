@@ -1,5 +1,3 @@
-package com;
-
 import com.snake.gui.Menu;
 
 import javax.swing.*;
