@@ -2,7 +2,7 @@ apply plugin: 'java'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.Snake'
+        attributes 'Main-Class': 'Snake'
     }
 }
 group 'org.snake'
