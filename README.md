@@ -1,3 +1,4 @@
+# Snake Game 📋
 This is a simple snake game, the game consists of a snake that must eat points without touching the walls or itself until it achieves the required score of the selected level.
 
 ### Pre-requirements 📋
