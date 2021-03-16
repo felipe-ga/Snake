@@ -217,7 +217,6 @@ public class SnakeGame extends JFrame implements KeyListener {
         this.level = level;
     }
     public void setTitle(String level){
-        System.out.println(level);
         super.setTitle(String.format("[SNAKE GAME]   [LEVEL : %s]   [SCORE : %d]   [GOAL : %d]",level.toUpperCase(),this.getScore(),this.getMaxPoint()));
     }
 
