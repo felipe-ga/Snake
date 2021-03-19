@@ -24,7 +24,7 @@ public class HeadSnake extends Point {
     public boolean isSnakeCrashed(int width, int height){
         if(this.x <= (width % SnakeGame.WIDTH_POINT)
                 || this.x >= (width - SnakeGame.WIDTH_POINT) - (width % SnakeGame.WIDTH_POINT)
-                || this.y <= (SnakeGame.WIDTH_POINT * 3) - (height % SnakeGame.WIDTH_POINT)
+                || this.y <= (SnakeGame.WIDTH_POINT * 2) - (height % SnakeGame.WIDTH_POINT)
                 || this.y >= (height - SnakeGame.WIDTH_POINT) - (height % SnakeGame.WIDTH_POINT)){
 
             return true;
